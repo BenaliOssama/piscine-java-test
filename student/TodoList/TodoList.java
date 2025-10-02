@@ -35,7 +35,9 @@ class Task {
 
     @Override 
     public String toString() {
-        return String.format("%-30s | %s", description, status);
+        String space = "                              ";
+        //return String.format("%-30s | %s", this.description);
+        return (this.description + space).substring(0, 30) + "|" + this.status;
     }
 }
 
@@ -71,7 +73,7 @@ public class TodoList {
 
     public void displayTasks(){
         for (int i = 0 ; i < this.len ; i ++ ){
-            System.out.println(tasks[i]);
+            System.out.println(tasks[i].toString());
         }
     };
 }
