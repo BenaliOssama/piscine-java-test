@@ -1,6 +1,4 @@
-Task.class
+TimeTrackerTest.class
+ProjectTime.class
 ExerciseRunner.class
-TodoListTest.class
-TaskStatus.class
-TodoList.class
 StopAfterFailureExtension.class
