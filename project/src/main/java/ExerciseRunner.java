@@ -1,16 +1,12 @@
+
+
 public class ExerciseRunner {
     public static void main(String[] args) {
-
-        ProjectTime shortProject = new ProjectTime("2023-05-14 09:00", "2023-05-14 09:30");
-        System.out.println("Short Project Total Logged Time: " + shortProject.getHoursLogged());
-
-        ProjectTime overnightProject = new ProjectTime("2023-05-14 20:00", "2023-05-15 08:00");
-        System.out.println("Overnight Project Total Logged Time: " + overnightProject.getHoursLogged());
-
-        ProjectTime fullDayProject = new ProjectTime("2023-05-14 00:00", "2023-05-15 00:00");
-        System.out.println("Full Day Project Total Logged Time: " + fullDayProject.getHoursLogged());
-
-        ProjectTime errorProject = new ProjectTime("2023-05-14", "2023-05-15 08:00");
-        System.out.println("Error Project Total Logged Time: " + errorProject.getHoursLogged());
+        TodoList myList = new TodoList(3); // List can hold up to 3 tasks
+        myList.addTask("Go grocery shopping");
+        myList.addTask("Pay electricity bill");
+        myList.setStatus(0, TaskStatus.COMPLETED); // Mark the first task as completed
+        myList.setDescription(1, "Pay all utility bills"); // Update the description of the second task
+        myList.displayTasks(); // Display the list of tasks
     }
 }
