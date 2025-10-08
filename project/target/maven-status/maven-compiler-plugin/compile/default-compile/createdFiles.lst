@@ -1,6 +1,4 @@
-Task.class
 ExerciseRunner.class
-TaskStatus.class
-TodoListTest.class
-TodoList.class
+DayOfWeekTest.class
+DayOfWeekFinder.class
 StopAfterFailureExtension.class
