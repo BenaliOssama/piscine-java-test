@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Dynamic configuration
-USERNAME="${USER:-obenali}"  # Default to 'houtaib' if USER is not set
+USERNAME="${USER:-sam}"  # Default to 'houtaib' if USER is not set
 BASE_DIR="/home/$USERNAME"
 PISCINE_JAVA_DIR="$PWD"
 PISCINE_JAVA_TEST_DIR="$BASE_DIR/piscine-java-test"

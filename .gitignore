@@ -4,3 +4,6 @@
 # Ignore all .class files anywhere
 *.class
 
+tests_utility/
+
+project/

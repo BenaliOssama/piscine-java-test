@@ -1,4 +1,4 @@
+HTMLValidator.class
 ExerciseRunner.class
-DayOfWeekTest.class
-DayOfWeekFinder.class
+HTMLValidatorTest.class
 StopAfterFailureExtension.class
