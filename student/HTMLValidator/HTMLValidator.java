@@ -1,6 +1,13 @@
 import java.util.regex.*;
 import java.util.*;
 
+// pattern.compile
+// pattern.matcher
+// matcher.find
+// stack.peak
+// matcher.group
+// (/?)
+
 public class HTMLValidator {
     public boolean validateHTML(String html) {
 	if (html == null){
